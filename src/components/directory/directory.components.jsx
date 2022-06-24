@@ -3,7 +3,7 @@ import './directory.styles.scss'
 
 
 
-const Categories = () => {
+const Directory = () => {
     const categories = [
         {
             "id": 1,
@@ -46,4 +46,4 @@ const Categories = () => {
     )
 }
 
-export default Categories;
+export default Directory;
