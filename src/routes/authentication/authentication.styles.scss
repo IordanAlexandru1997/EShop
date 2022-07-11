@@ -1,0 +1,43 @@
+/* #### iPhone 5 Portrait or Landscape #### */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+    .authentication-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem 2rem 0 2rem;
+        align-items: center;
+    }
+
+}
+
+/* #### iPhone 6 and 6 plus Portrait or Landscape #### */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+    .authentication-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem 3rem 0 3rem;
+        align-items: center;
+    }
+
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .authentication-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem 5rem 0 5rem;
+        align-items: center;
+    }
+
+}
+
+/* #### Desktops #### */
+@media screen and (min-width: 1024px) {
+    .authentication-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem 7rem 0 7rem;
+        align-items: center;
+    }
+
+}
